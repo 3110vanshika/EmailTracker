@@ -13,7 +13,7 @@ const Settings = ({ activeTab, setActiveTab }) => {
       {/* Sidebar */}
       <Sidebar activeTab={currentTab} setActiveTab={setActiveTab} />
       
-      {/* Main Content */}
+      
       <div className={`flex-1 flex flex-col transition-all duration-300 ${isCollapsed ? 'ml-20' : 'ml-64'}`}>
         {/* Header */}
         <header className="bg-white shadow-sm border-b">
